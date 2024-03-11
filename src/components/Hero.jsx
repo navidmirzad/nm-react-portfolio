@@ -14,8 +14,8 @@ const Hero = () => {
                 <ReactTyped
                 className='md:text-5xl sm:text-4xl text-xl font-bold' 
                 strings={['A software developer!', 'A designer at heart']}
-                typeSpeed={90} 
-                backSpeed={110} 
+                typeSpeed={70} 
+                backSpeed={90} 
                 loop 
                 />
             </div>
