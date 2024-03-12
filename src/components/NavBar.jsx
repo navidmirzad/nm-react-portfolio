@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
   {/* TODO: border-2 border-sky-600 rounded-3xl m-2 add this outline border to the minimzed view / mobile phone view of the navbar */}
-      <h1 className="w-full text-3xl font-bold text-[#ff8045] p-4">NAVID</h1>
+      <h1 className="w-full text-3xl font-bold text-[#ff8045] p-2">NAVID</h1>
       <ul className="hidden md:flex">
         <li className="p-4 text-lg">Home</li>
         <li className="p-4 text-lg">About</li>
@@ -24,9 +24,9 @@ const Navbar = () => {
           Resume</a>
       </ul>
       <div onClick={handleNav} className="block md:hidden">
-          {!nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}
+          {!nav ? <AiOutlineClose size={25}/> : <AiOutlineMenu size={25} />}
       </div>
-      <ul className={!nav ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-600 bg-[#5a4d48] ease-out duration-500 " : "ease-in-out duration-500 fixed left-[-100%]"}>
+      <ul className={!nav ? "fixed left-0 top-0 w-[45%] h-full border-r border-r-gray-600 bg-[#5a4d48] ease-out duration-500 " : "ease-in-out duration-500 fixed left-[-100%]"}>
         <h1 className='w-full text-3xl font-bold text-[#ff8045] m-4'>NAVID</h1>    
         <li className="p-4">Home</li>
         <li className="p-4">About</li>
