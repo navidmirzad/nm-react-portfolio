@@ -14,23 +14,23 @@ const Hero = () => {
                 <ReactTyped
                 className='md:text-5xl sm:text-4xl text-xl font-bold' 
                 strings={['A software developer!', 'A designer at heart']}
-                typeSpeed={70} 
+                typeSpeed={70}  
                 backSpeed={90} 
                 loop 
                 />
             </div>
             <p className='text-[#64c775] font-bold p-2 mt-10'> // INTERESTED IN AN INTERNSHIP //</p>
 
-            <div className='flex gap-4 z-50 justify-center md:justify-center lg:justify-center mt-6'>
+            <div className='flex gap-4 justify-center md:justify-center lg:justify-center mt-6'>
             <a href="https://www.linkedin.com/in/navidmirzad/" 
-                className='flex items-center p-2 bg-transparent border-white border-2 text-white rounded-md text-xl font-bold cursor-pointer relative z-10 group hover:text-[#ff8045] hover:border-[#ff8045]' 
+                className='flex items-center p-2 bg-transparent border-white border-2 text-white rounded-md text-xl font-bold cursor-pointer relative group hover:text-[#ff8045] hover:border-[#ff8045]' 
                 target="_blank" 
                 rel="noopener noreferrer">
                 <FaLinkedin className="mr-2" /> LinkedIn
             </a>
 
             <a href="https://github.com/navidmirzad" 
-                className='flex items-center p-2 bg-transparent border-white border-2 text-white rounded-md text-xl font-bold cursor-pointer relative z-10 group hover:text-[#ff8045] hover:border-[#ff8045]' 
+                className='flex items-center p-2 bg-transparent border-white border-2 text-white rounded-md text-xl font-bold cursor-pointer relative group hover:text-[#ff8045] hover:border-[#ff8045]' 
                 target="_blank" 
                 rel="noopener noreferrer">
                 <FaGithub className="mr-2" /> GitHub

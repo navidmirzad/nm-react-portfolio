@@ -3,19 +3,26 @@ import navid2 from "../assets/navid.jpg";
 
 const Portfolio = () => {
   return (
-    <div className='w-full py-[10rem] px-4 bg-white'>
-        <div className='max-w-[1240px] mx-auto grid grid-cols-3 gap-8'>
-            <div className='w-full'>
-                <img className='w-20 mx-auto mt-[-3rem] bg-black' src={navid2} alt="alt" />
-                <h2>Project 1</h2>
-                <p>Info about project</p>
-                <div>
-                    <p>Technologies</p>
-                    <p>React</p>
-                    <p>Tailwindcss</p>
-                </div>
-            </div>
+    <div className='max-w-full h-full px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto'>
+      <h1 className='text-white font-fira-code text-center mb-10 text-2xl md:text-3xl lg:text-4xl font-bold bg-clip-text'>Portfolio</h1>
+      <div className='grid sm:grid-cols-1 lg:grid-cols-4 gap-8'>
+        <div>
+          <img className='group flex flex-col h-full shadow-sm rounded-xl bg-black' src={navid2} alt='/' />
         </div>
+
+        <div>
+          <img className='group flex flex-col h-full shadow-sm rounded-xl bg-black' src={navid2} alt='/' />
+        </div>
+
+        <div>
+          <img className='group flex flex-col h-full shadow-sm rounded-xl bg-black' src={navid2} alt='/' />
+        </div>
+
+        <div>
+          <img className='group flex flex-col h-full shadow-sm rounded-xl bg-black' src={navid2} alt='/' />
+        </div>
+
+      </div>
     </div>
   )
 }
