@@ -36,9 +36,7 @@ const Hero = () => {
                 <FaGithub className="mr-2" /> GitHub
             </a>
             </div>
-
         </div>
-        
     </div>
   )
 }
