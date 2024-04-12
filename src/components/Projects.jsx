@@ -66,7 +66,7 @@ const Projects = () => {
 
   return (
     <div className="w-full bg-[#3D405B] py-16 px-4 z-0">
-      <h1 className="text-5xl font-bold mb-5 flex justify-center text-[#c2c3c3] mb-12">PROJECTS</h1>
+      <h1 className="text-5xl font-bold mb-5 flex justify-center text-[#c2c3c3] mb-14">PROJECTS</h1>
       <div className="flex flex-wrap mx-4 justify-center">
         {projects.map((project, index) => (
           <div key={project.id} className="w-full sm:w-1/2 lg:w-5/12 xl:w-5/12 px-4 mb-8">

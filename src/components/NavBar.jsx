@@ -19,8 +19,8 @@
           <ul className='hidden md:flex pr-4'>
             <li className='py-6 text-xl'>Home</li>
             <li className='py-6 text-xl'>About</li>
-            <li className='py-6 text-xl'>Skills</li>
             <li className='py-6 text-xl'>Projects</li>
+            <li className='py-6 text-xl'>Skills</li>
             <li className='py-6 text-xl'>Contact</li>
             <a href="/CVPRAKTIK.pdf"
             className="flex items-center p-2 border border-gray-200 m-2 hover:border-[#4b7ecb] hover:text-[#4b7ecb]" download>
