@@ -3,7 +3,8 @@ import Navid from '../assets/nav.jpg'
 
 const About = () => {
   return (
-    <div className='w-full bg-[#c1d8f0] py-16 px-4'>
+    <div id="about">
+    <div className='w-full bg-[#c1d8f0] py-32 px-4'>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 gap-x-8'>
             <img className='w-full h-full object-cover  mx-auto object-' src={Navid} alt="/" />
             <div className='flex flex-col justify-center content-between'>
@@ -20,6 +21,7 @@ const About = () => {
                   Check out my portfolio!</button>
             </div>
         </div>
+    </div>
     </div>
   )
 }

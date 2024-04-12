@@ -5,27 +5,49 @@
 
   const Navbar = () => {
       const [nav, setNav] = useState(false);
+
       const handleClick = () => setNav(!nav);
 
-
-    return (
-      <div className='fixed w-full h-[90px] flex justify-between items-center px-4 bg-[#273462] text-gray-300 z-50'>
-        <div>
-          <h1 className='text-2xl font-bold m-4'>NAVID</h1>
-        </div>
-
-
-        {/* menu */}
+      const scrollToSection = (id) => {
+        const element = document.getElementById(id);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+          setNav(false); 
+        }
+      };
+    
+      return (
+        <div className='fixed w-full h-[90px] flex justify-between items-center px-4 bg-[#273462] text-gray-300 z-50'>
+          <div>
+            <h1 className='text-2xl font-bold m-4' onClick={() => scrollToSection('home')}>NAVID</h1>
+            
+          </div>
+    
+          {/* menu */}
           <ul className='hidden md:flex pr-4'>
-            <li className='py-6 text-xl'>Home</li>
-            <li className='py-6 text-xl'>About</li>
-            <li className='py-6 text-xl'>Projects</li>
-            <li className='py-6 text-xl'>Skills</li>
-            <li className='py-6 text-xl'>Contact</li>
-            <a href="/CVPRAKTIK.pdf"
-            className="flex items-center p-2 border border-gray-200 m-2 hover:border-[#4b7ecb] hover:text-[#4b7ecb]" download>
-            <FaRegFilePdf className="mr-2 hover:border-[]"/>Resume</a>
-        </ul>
+            <li className='py-6 text-xl' onClick={() => scrollToSection('home')}>
+              Home
+            </li>
+            <li className='py-6 text-xl' onClick={() => scrollToSection('about')}>
+              About
+            </li>
+            <li className='py-6 text-xl' onClick={() => scrollToSection('projects')}>
+              Projects
+            </li>
+            <li className='py-6 text-xl' onClick={() => scrollToSection('skills')}>
+              Skills
+            </li>
+            <li className='py-6 text-xl' onClick={() => scrollToSection('contact')}>
+              Contact
+            </li>
+            <a
+              href='/CVPRAKTIK.pdf'
+              className='flex items-center p-2 border border-gray-200 m-2 hover:border-[#4b7ecb] hover:text-[#4b7ecb]'
+              download
+            >
+              <FaRegFilePdf className='mr-2 hover:border-[]' />Resume
+            </a>
+          </ul>
 
       {/* hamburger */}
       <div onClick={handleClick} className='md:hidden z-10'>

@@ -5,7 +5,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <div name='home' className='w-full h-screen bg-[#3D405B]'>
+    <div name='home' id="home" className='w-full h-screen bg-[#3D405B]'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <p className='text-[#97c1ff] text-4xl'>Hi, my name is</p>
