@@ -17,8 +17,6 @@ const About = () => {
                 For that, I decided to create this web portfolio, which includes my skills, tech stack, and a little about me.</p>
                 <p className='mt-4'>I have mostly worked on backend and full-stack projects. However, I am currently developing my frontend skills
                 with React, React Native and Tailwind CSS.</p>
-                <button className='bg-[#4b7ecb] text-white hover:bg-[#273462] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3'>
-                  Check out my portfolio!</button>
             </div>
         </div>
     </div>
