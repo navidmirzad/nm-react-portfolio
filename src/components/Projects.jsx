@@ -36,8 +36,8 @@ const Projects = () => {
     {
       id: 4,
       title: 'Online Notebook - React Native',
-      description: 'React-Native Semester project, with different functionality. I have used Firebase as my database, as it allows me to implement a lot of useful tools'
-      + ' such as creating accounts, user authentication. Generally it just worked really well with react-native.',
+      description: 'React-Native Semester project, with different functionality. I used Firebase as my database, as it allows me to implement a lot of useful tools'
+      + ' such as creating accounts, user authentication. I found it super easy to use, and it worked well with react-native.',
       technologies: ['JavaScript', 'React-Native', 'FireBase', 'Git'],
       images: ['notebookImages/notebook1.png', 'notebookImages/notebook2.png', 'notebookImages/notebook3.png',
               'notebookImage/notebook4.png', 'notebookImages/notebook5.png', 'notebookImages/notebook6.png'],
