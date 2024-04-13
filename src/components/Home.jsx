@@ -32,7 +32,7 @@ const Home = () => {
           />
           </div>
         <p className='text-white py-4 max-w-[700px]'>
-          I’m a Software Engineer specializing in building (and occasionally
+          I’m a Software Developer specializing in building (and occasionally
           designing) exceptional digital experiences. Currently, I’m focused on
           building responsive full-stack web applications.
         </p>
