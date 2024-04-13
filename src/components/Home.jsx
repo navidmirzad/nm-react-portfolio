@@ -1,11 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { ReactTyped } from 'react-typed';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Home = () => {
+  const [nav, setNav] = useState(false);
+
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+      setNav(false); 
+    }
+  };
+
   return (
-    <div name='home' className='w-full h-screen bg-[#3D405B]'>
+    <div name='home' id="home" className='w-full h-screen bg-[#3D405B]'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <p className='text-[#97c1ff] text-4xl'>Hi, my name is</p>
@@ -22,12 +32,14 @@ const Home = () => {
           />
           </div>
         <p className='text-white py-4 max-w-[700px]'>
-          I’m a full-stack developer specializing in building (and occasionally
+          I’m a Software Engineer specializing in building (and occasionally
           designing) exceptional digital experiences. Currently, I’m focused on
           building responsive full-stack web applications.
         </p>
         <div>
-          <button className='text-[#ffffff] group border-2 border-[#4b7ecb] px-6 py-3 my-2 flex items-center hover:bg-[#4b7ecb] hover:border-[#ffffff]'>
+          <button className='text-[#ffffff] group border-2 border-[#4b7ecb] px-6 py-3 my-2 flex items-center hover:bg-[#4b7ecb] hover:border-[#ffffff]'
+          onClick={() => scrollToSection('projects')}
+          >
             View Work
             <span className='group-hover:rotate-90 duration-300'>
               <HiArrowNarrowRight className='ml-3 ' />

@@ -3,7 +3,8 @@ import Navid from '../assets/nav.jpg'
 
 const About = () => {
   return (
-    <div className='w-full bg-[#c1d8f0] py-16 px-4'>
+    <div id="about">
+    <div className='w-full bg-[#c1d8f0] py-32 px-4'>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 gap-x-8'>
             <img className='w-full h-full object-cover  mx-auto object-' src={Navid} alt="/" />
             <div className='flex flex-col justify-center content-between'>
@@ -15,11 +16,10 @@ const About = () => {
               <p className='mt-4'>I am currently in my 4th semester and am therefore looking for a 10-week / 3-month internship!
                 For that, I decided to create this web portfolio, which includes my skills, tech stack, and a little about me.</p>
                 <p className='mt-4'>I have mostly worked on backend and full-stack projects. However, I am currently developing my frontend skills
-                with React, React Native, Node.js, and Tailwind CSS.</p>
-                <button className='bg-[#4b7ecb] text-white hover:bg-[#273462] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3'>
-                  Check out my portfolio!</button>
+                with React, React Native and Tailwind CSS.</p>
             </div>
         </div>
+    </div>
     </div>
   )
 }
