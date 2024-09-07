@@ -40,13 +40,13 @@
             <li className='py-6 text-xl' onClick={() => scrollToSection('contact')}>
               Contact
             </li>
-            <a
+            {/* <a
               href='/CVPRAKTIK.pdf'
               className='flex items-center p-2 border border-gray-200 m-2 hover:border-[#4b7ecb] hover:text-[#4b7ecb]'
               download
             >
               <FaRegFilePdf className='mr-2 hover:border-[]' />Resume
-            </a>
+            </a> */}
           </ul>
 
       {/* hamburger */}
