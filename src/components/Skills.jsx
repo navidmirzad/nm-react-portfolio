@@ -26,7 +26,7 @@ const Skills = () => {
               <li className="cursor-default">Java</li>
               <li className="cursor-default">JavaScript</li>
               <li className="cursor-default">HTML/CSS</li>
-              <li className="cursor-default">Currently learning PHP</li>
+              <li className="cursor-default">PHP</li>
             </ul>
           </div>
           {/* Frameworks & Libraries */}
@@ -39,6 +39,7 @@ const Skills = () => {
               <li className="cursor-default">Tailwind CSS</li>
               <li className="cursor-default">Laravel</li>
               <li className="cursor-default">Node.JS</li>
+              <li className="cursor-default">LAMP Stack</li>
             </ul>
           </div>
           {/* Databases & Tools */}

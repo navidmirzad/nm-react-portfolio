@@ -1,7 +1,5 @@
   import React, {useState} from 'react'
   import { FaBars, FaTimes, FaGithub, FaLinkedin,  } from 'react-icons/fa'
-  import { BsFillPersonLinesFill } from 'react-icons/bs'
-  import { FaRegFilePdf } from "react-icons/fa"; // Importing the PDF icon
 
   const Navbar = () => {
       const [nav, setNav] = useState(false);
@@ -93,8 +91,6 @@
     </a>
   </div>
 </ul>
-
-
 
       {/* social icons */}
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>

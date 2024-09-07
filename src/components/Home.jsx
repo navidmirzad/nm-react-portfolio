@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ReactTyped } from 'react-typed';
 import { HiArrowNarrowRight } from 'react-icons/hi';
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+/* import { FaLinkedin, FaGithub } from "react-icons/fa"; */
 
 const Home = () => {
   const [nav, setNav] = useState(false);
@@ -45,7 +45,6 @@ const Home = () => {
               <HiArrowNarrowRight className='ml-3 ' />
             </span>
           </button>
-          <p className='text-[#64c775] text-xl font-bold p-2 mt-10'> // INTERESTED IN AN INTERNSHIP //</p>
         </div>
       </div>
     </div>
