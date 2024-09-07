@@ -71,10 +71,10 @@
   <li className='py-6 text-4xl' onClick={() => scrollToSection('contact')}>
     Contact
   </li>
-  <a href="/CVPRAKTIK.pdf"
+  {/* <a href="/CVPRAKTIK.pdf"
     className="flex items-center text-4xl p-4 border border-gray-200 m-2 hover:border-[#4b7ecb] hover:text-[#4b7ecb]" download>
     <FaRegFilePdf className="mr-2 text-4xl hover:border-[#4b7ecb]"/>Resume
-  </a>
+  </a> */}
 
   {/* LINKEDIN & GITHUB IN HAMBURGER MOBILE VIEW*/}
   <div className='flex gap-4 justify-center md:justify-center lg:justify-center mt-6'>
@@ -115,14 +115,14 @@
                 Github <FaGithub size={30} />
               </a>
             </li>
-            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
+            {/* <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
               <a
                 className='flex justify-between items-center w-full text-gray-300' target="_blank"
                 href='/CVPRAKTIK.pdf'
               >
                 Resume <BsFillPersonLinesFill size={30} />
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
